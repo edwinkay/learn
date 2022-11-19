@@ -1,0 +1,16 @@
+.padre{
+    display: flex;
+    justify-content: space-evenly;
+}
+.square{
+   background-color: blueviolet;
+   width: 150px;
+   height: 150px;
+}
+.square:hover{
+    background-color: yellow;
+    -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
